@@ -9,9 +9,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ccsw</groupId>
-	<artifactId>tutorial-category</artifactId>
+	<artifactId>tutorial-game</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tutorial-category</name>
+	<name>tutorial-game</name>
 	<description>Tutorial project for Spring Boot</description>
 	<properties>
 		<java.version>20</java.version>
@@ -41,6 +41,10 @@
 			<artifactId>dozer</artifactId>
 			<version>5.5.1</version>
 		</dependency>
+		<dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
 		<dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>

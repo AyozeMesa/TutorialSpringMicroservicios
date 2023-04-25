@@ -9,9 +9,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ccsw</groupId>
-	<artifactId>tutorial-category</artifactId>
+	<artifactId>tutorial-author</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tutorial-category</name>
+	<name>tutorial-author</name>
 	<description>Tutorial project for Spring Boot</description>
 	<properties>
 		<java.version>20</java.version>
