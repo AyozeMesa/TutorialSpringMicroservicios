@@ -13,7 +13,7 @@ import jakarta.persistence.Table;
  *
  */
 @Entity
-@Table(name = "author")
+@Table(name = "AUTHOR")
 public class Author {
 
     @Id
